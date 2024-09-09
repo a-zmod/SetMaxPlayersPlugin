@@ -1,0 +1,13 @@
+name: "SetMaxPlayers"
+id: "set-max-players"
+description: "Allows change of the maximum player count while server is running"
+author: "SaveData"
+version: "1.1.0"
+environment: "server"
+license: "MIT"
+contacts: "https://github.com/brov3r/avrix"
+entrypoints:
+  - "org.azmod.setmaxplayers.Main"
+dependencies:
+  pz-core: ">=41.78.16"
+  avrix-loader: ">=1.5.0"
